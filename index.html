@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>TIC TAC TOE</h1>
-    <div class="container">
-        <div cellindex="0" class="cell"></div>
-        <div cellindex="1" class="cell"></div>
-        <div cellindex="2" class="cell"></div>
-        <div cellindex="3" class="cell"></div>
-        <div cellindex="4" class="cell"></div>
-        <div cellindex="5" class="cell"></div>
-        <div cellindex="6" class="cell"></div>
-        <div cellindex="7" class="cell"></div>
-        <div cellindex="8" class="cell"></div>
+
+    <pre><h1>TIC TAC TOE
+(KATA PITI)
+    </h1></pre>
+    <div class="board">
+        <div class="cell" cellIndex="0"></div>
+        <div class="cell" cellIndex="1"></div>
+        <div class="cell" cellIndex="2"></div>
+        <div class="cell" cellIndex="3"></div>
+        <div class="cell" cellIndex="4"></div>
+        <div class="cell" cellIndex="5"></div>
+        <div class="cell" cellIndex="6"></div>
+        <div class="cell" cellIndex="7"></div>
+        <div class="cell" cellIndex="8"></div>
+        <div id="winning-line"></div>  <!-- Line for win highlight -->
     </div>
-    <h2 id="status"></h2>
-    
+    <h2 id="status">X's Turn</h2>
     <button id="restart">Restart</button>
-    <script src="script.js"></script>   
+
+    <script src="script.js"></script>
 </body>
 </html>
