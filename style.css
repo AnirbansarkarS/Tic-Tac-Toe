@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.cell{
+    background-color: darksalmon;
+   border: 2px solid black; 
+   width: 75px;
+   height: 75px;
+   box-shadow: 0 0 0 2px;
+   /* line-height: px; */
+   font-size: 50px;
+   cursor:pointer;
+   font-family: "permanent marker", cursive;
+   text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width:235px;
+    margin: auto;
+}
+button{
+    display: block;
+    margin: auto;
+
+
+}
+h2{
+
+    text-align: center;
+}
+button{
+    font-weight: 400;
+    border-radius: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+    height: 35px;
+    width: 80px;
+    background-color: rgb(255, 255, 0);
+}
+button:hover{
+    background-color: crimson;
+}
