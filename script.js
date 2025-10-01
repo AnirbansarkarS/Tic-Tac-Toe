@@ -65,7 +65,7 @@ function checkWin() {
 
     if (roundWon) {
         statusText.textContent = `${currentPlayer} Wins!`;
-        statusText.style.color = currentPlayer === "X" ? "green" : "blue";  // Change color
+        statusText.style.color = currentPlayer === "X" ? "green" : "blue";  // change the colour 
         drawWinningLine(winningCondition);
         running = false;
     } else if (checkDraw()) {
